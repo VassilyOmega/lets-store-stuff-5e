@@ -16,7 +16,7 @@
     "esmodules": [
         "src/main.js"
     ],
-    "url": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main",
-    "manifest": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main\module.json",
-    "download": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main\archive\main.zip"
+    "url": "https://github.com/VassilyOmega/lets-store-stuff-5e",
+    "manifest": "https://raw.githubusercontent.com/VassilyOmega/lets-store-stuff-5e/main/module.json",
+    "download": "https://github.com/VassilyOmega/lets-store-stuff-5e/archive/main.zip"
 }
