@@ -1,4 +1,4 @@
-# Lets Trade 5e
+# Lets Store Stuff 5e
 A Foundry VTT module which allows you to send items to a player controlled chest.
 
 This module was created by altering Lets Trade 5e.
