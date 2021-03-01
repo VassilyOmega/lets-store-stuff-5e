@@ -1,0 +1,22 @@
+{
+    "name": "lets-store-stuff-5e",
+    "title": "Let's Store Stuff 5e",
+    "description": "A Foundry VTT module which allows you to send items to a player controlled chest.",
+    "author": "VassilyOmega",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
+    "system": ["dnd5e"],
+    "minimumSystemVersion": "1.2.0",
+    "license": "LICENSE",
+    "socket": true,
+    "styles": [
+        "styles/lets-trade.css"
+    ],
+    "esmodules": [
+        "src/main.js"
+    ],
+    "url": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main",
+    "manifest": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main\module.json",
+    "download": "C:\Users\VassilyOmega\Desktop\lets-store-stuff-5e-main\archive\main.zip"
+}
