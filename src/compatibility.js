@@ -1,5 +1,5 @@
 function currencyDefault(element, actorId, callback) {
-    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Player">
+    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
     currencyIcon.dataset.actorId = actorId;
@@ -10,7 +10,7 @@ function currencyDefault(element, actorId, callback) {
 }
 
 function currencyTidySheet(element, actorId, callback) {
-    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Player">
+    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
     currencyIcon.dataset.actorId = actorId;
@@ -22,7 +22,7 @@ function currencyTidySheet(element, actorId, callback) {
 }
 
 function currencyDndbcs(element, actorId, callback) {
-    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Player">
+    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
     currencyIcon.dataset.actorId = actorId;
@@ -33,7 +33,7 @@ function currencyDndbcs(element, actorId, callback) {
 }
 
 function currencyCb5es(element, actorId, callback) {
-    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Player">
+    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
     currencyIcon.dataset.actorId = actorId;
@@ -44,7 +44,7 @@ function currencyCb5es(element, actorId, callback) {
 }
 
 function currencyOgl5e(element, actorId, callback) {
-    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Player">
+    let currencyIcon = $(`<a class="currency-control currency-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
     currencyIcon.dataset.actorId = actorId;
@@ -77,7 +77,7 @@ function fetchOgl5e(element) {
  */
 function itemDefault(item, actorId, callback) {
     const edit = $(".item-control.item-edit", item);
-    const icon = $(`<a class="item-control item-trade" title="Send to Player">
+    const icon = $(`<a class="item-control item-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
     </a>`)[0];
 
@@ -91,9 +91,9 @@ function itemDefault(item, actorId, callback) {
 
 function itemTidy5e(item, actorId, callback) {
     const edit = $(".item-control.item-edit", item);
-    const icon = $(`<a class="item-control item-trade" title="Send to Player">
+    const icon = $(`<a class="item-control item-trade" title="Send to Storage">
         <i class="fas fa-balance-scale-right"></i>
-        <span class="control-label">Send to Player</span>
+        <span class="control-label">Send to Storage</span>
     </a>`)[0];
 
     icon.dataset.itemId = item.dataset.itemId;
